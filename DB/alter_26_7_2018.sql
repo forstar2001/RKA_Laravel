@@ -1,0 +1,1 @@
+ALTER TABLE `user_details` ADD `member_since` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `profile_picture`;

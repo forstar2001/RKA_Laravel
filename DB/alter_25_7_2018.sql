@@ -1,0 +1,1 @@
+ALTER TABLE `user_credentials` ADD `otp` INT NULL AFTER `reset_status`;
