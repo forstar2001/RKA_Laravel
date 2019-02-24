@@ -1,0 +1,21 @@
+1) Install Composer: (php version > 5.4 & openSSL must be on)
+
+php -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));"
+
+(Installing composer.phar)
+
+
+2) Create a batch file composer.bat under php folder:
+File Contains:
+
+@php C:\xampp\php\composer.phar %*
+
+Run the command:
+
+C:\Users\Deb\Desktop>composer
+
+3) Create laravel project under htdocs:
+
+C:\xampp\htdocs\composer create-project laravel/laravel test_project --prefer-dist
+
+
